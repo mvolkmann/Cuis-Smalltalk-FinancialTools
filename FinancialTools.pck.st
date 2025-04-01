@@ -1,6 +1,6 @@
-'From Cuis7.3 [latest update: #7092] on 1 April 2025 at 1:58:47 pm'!
+'From Cuis7.3 [latest update: #7092] on 1 April 2025 at 3:04:59 pm'!
 'Description '!
-!provides: 'FinancialTools' 1 1!
+!provides: 'FinancialTools' 1 2!
 SystemOrganization addCategory: 'FinancialTools'!
 
 
