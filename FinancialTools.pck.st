@@ -1,6 +1,6 @@
-'From Cuis7.3 [latest update: #7092] on 1 April 2025 at 9:24:16 am'!
+'From Cuis7.3 [latest update: #7092] on 1 April 2025 at 1:58:47 pm'!
 'Description '!
-!provides: 'FinancialTools' 1 0!
+!provides: 'FinancialTools' 1 1!
 SystemOrganization addCategory: 'FinancialTools'!
 
 
@@ -409,7 +409,7 @@ update
 	expendituresChart update.
 	incomeChart update.! !
 
-!FinancialHistoryView class methodsFor: 'instance creation' stamp: 'rmv 3/31/2025 13:01:25'!
+!FinancialHistoryView class methodsFor: 'instance creation' stamp: 'rmv 4/1/2025 13:58:09'!
 example
 	| history |
 	
@@ -420,7 +420,7 @@ example
 		receive: 22.15 from: #interest;
 		spend: 135.65 for: #utilities;
 		spend: 146.14 for: #food.
-	FinancialHistoryView open: history.
+	self open: history.
 		
 		! !
 
